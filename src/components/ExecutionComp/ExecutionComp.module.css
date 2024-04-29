@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.navBarStyle {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navBarStyle span:nth-child(1):not(.conditionContainer span:first-of-type) {
+    color: #791ac6;
+}
+
+.rightIcon {
+    padding-right: 6px;
+}
+
+.conditionContainer {
+    opacity: 0.4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 6px;
+    padding: 3px 5px;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.conditionContainer.passed {
+    background-color: #57998d;
+}
+
+.conditionContainer.failed {
+    background-color: #d86375;
+}
+
+.executionDataStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.executionCardStyle {
+    padding: 20px;
+    background-color: #f2f5f7;
+    width: fit-content;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #787c80;
+}
+
+.executionCardStyle div:first-of-type {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 28px;
+    justify-content: space-between;
+}
+
+.executionCardStyle div:last-of-type {
+    display: flex;
+    gap: 28px;
+}
+
+.executionCardStyle p:first-of-type {
+    color: #791ac6;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resultText {
+    color: #791ac6;
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 10px 10px;
+    border-bottom: 1px solid #791ac6;
+}
+
+.resultText::after {
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid #791ac6;
+    width: 80px;
+    bottom: 0;
+    left: 0;
+}

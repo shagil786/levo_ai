@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+}
+
+.searchContainer {
+    width: calc(100% - 20px);
+    height: 28px;
+    border: 1px solid #939a9f;
+    padding: 4px 10px;
+}
+
+.searchContainer::placeholder {
+    color: #b3babf;
+}

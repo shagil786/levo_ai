@@ -1,0 +1,46 @@
+.container {
+    border-right: 1px solid #000;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.wrapper p:first-of-type {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.wrapper p:last-of-type {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reportsStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.reportWrapperStyle {
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.reportWrapperStyle.selected {
+    color: #791ac6;
+}
+
+.reportWrapperStyle p {
+    width: 100%;
+}

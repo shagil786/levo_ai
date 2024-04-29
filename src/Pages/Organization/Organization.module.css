@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    position: absolute;
+    padding: 40px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textContainer p:first-of-type {
+    color: #791ac6;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.textContainer p:last-of-type {
+    color: #cc5fdb;
+}
+
+.orginazationStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
